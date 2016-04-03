@@ -1,0 +1,21 @@
+title: OhJeonggyu.net
+email: hhh2123623@gmail.com
+
+twitter_username: null
+github_username:  OhJeonggyu
+facebook_username: OhJeonggyu
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables"]
+
+highlighter: pygments
+
+permalink: pretty
+
+safe: true
+lsi: true
+
+gems:
+  - jekyll-redirect-from
+  - jemoji

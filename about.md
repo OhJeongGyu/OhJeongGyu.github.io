@@ -1,15 +1,12 @@
 ---
 layout: page
-title: About
+title: 소개 페이지
 permalink: /about/
 ---
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+    - 세종대학교 정보통신공학과 오정규(27)
+    - 2010.03~2015.08 세종대학교 정보통신공학과
+    - 2011.03~2012.12 대한민국 육군
+    - 2015.08~ 미래 창조 과학부 SW Maestro 6기 연수생                         
+    - 2015.09~ 세종대학교 정보통신대학원 입학
+    - 2016.03~ 멋쟁이 사자처럼 4기 
+                    

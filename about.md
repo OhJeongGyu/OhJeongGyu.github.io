@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 소개 페이지
+title: about
 permalink: /about/
 ---
     - 세종대학교 정보통신공학과 오정규(27)

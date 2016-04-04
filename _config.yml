@@ -1,11 +1,10 @@
-title: OhJeonggyu.net
+title: 오정규 페이지
 email: hhh2123623@gmail.com
 
-twitter_username: null
 github_username:  OhJeonggyu
-facebook_username: OhJeonggyu
+facebook_username: https://www.facebook.com/JeonggyuOh1990
 
-markdown: redcarpet
+markdown: kramdown
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables"]
 

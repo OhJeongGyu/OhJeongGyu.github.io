@@ -42,19 +42,24 @@ val user = User("Jeonggyu",
 첫 번째 방법은 다음과 같다.
 
 ```
-public class Elvis {	public static final Elvis INSTANCE = new Elvis():        
+public class Elvis {
+	public static final Elvis INSTANCE = new Elvis():        
 	private Elvis() { ...}
 	publiC foo();
 	public bar();
 	...
-}```
+}
+
+```
 위와 같은 방법에서는 Elvis.INSTANCE와 같은 방법으로 싱글톤 객체에 접근할 수 있다.
 
 두 번째 방법은 
 
 ```
-public class Elvis {	private static final Elvis INSTANCE = new Elvis(); 
-	private Elvis() { ...}	public static Elvis getlnstance() { return INSTANCE; }
+public class Elvis {
+	private static final Elvis INSTANCE = new Elvis(); 
+	private Elvis() { ...}
+	public static Elvis getlnstance() { return INSTANCE; }
 	public foo();
 	public bar();
 
@@ -186,7 +191,7 @@ Java에서는 어떤 메서드가 ```null```을 리턴 하는지 안하는 지 �
 > 한정적 와일드카드를 써서 API의 유연성을 높여라
 
 ### Java
-Java에서의 한정적 와일드카드 ```<? extends E> ``` 와 ```<? super E> 같은 키워드들은 이해하기 힘들다. 
+Java에서의 한정적 와일드카드 ```<? extends E> ``` 와 ```<? super E>``` 같은 키워드들은 이해하기 힘들다. 
 
 ### Kotlin
 ```in```과 ```out``` 키워드를 사용한다. 
